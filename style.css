@@ -1,0 +1,365 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DINPro', sans-serif;
+}
+
+header {
+    height: 270px;
+}
+
+.container {
+    width: 1720px;
+    margin: 0 auto;
+}
+
+.header-title {
+    height: 40px;
+    margin-top: 70px;
+}
+
+.header-title h1 {
+    text-align: center;
+    font-size: 46px;
+    font-weight: 700;
+}
+
+.header-subtitle {
+    height: 126px;
+    margin-top: 65px;
+}
+
+.header-subtitle p {
+    text-align: center;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.header-subtitle .sub {
+    margin-top: 26px;
+    height: 60px;
+}
+
+/* main */
+
+main {
+    margin-top: 120px;
+}
+
+.main-wrap {
+    display: flex;
+    justify-content: center;
+}
+
+.block-one {
+    width: 579px;
+    position: relative;
+}
+
+.block-one .img-one {
+    /* width: 579px; */
+    height: 602px;
+    background: url(./img/Layer\ 21.png) center center/cover no-repeat;
+    filter: brightness(70%);
+}
+
+.block-one .text-one p {
+    position: absolute;
+    top: 515px;
+    left: 180px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.block-two {
+    width: 579px;
+    position: relative;
+}
+
+.block-two .img-two {
+    /* min-width: 579px; */
+    height: 602px;
+    background: url(./img/Layer\ 20.png) center center/cover no-repeat;
+    filter: brightness(70%);
+}
+
+.block-two .text-two p {
+    position: absolute;
+    top: 515px;
+    left: 228px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.block-three {
+    width: 579px;
+    position: relative;
+}
+
+.block-three .img-three {
+    /* min-width: 579px; */
+    height: 602px;
+    background: url(./img/Layer\ 18.png) center center/cover no-repeat;
+    filter: brightness(70%);
+}
+
+.block-three .text-three p {
+    position: absolute;
+    top: 515px;
+    left: 250px;
+    font-size: 24px;
+    font-weight: 700;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+/* btn */
+
+.btn {
+    margin-top: 80px;
+    text-align: center;
+} 
+
+.btn button {
+    width: 362px;
+    height: 60px;
+    background-color: #fff;
+    border: 3px solid #0d1b2b;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: 700;
+    outline: none;
+}
+
+.btn button:hover {
+    background-color: #0d1b2b;
+    color: #fff;
+    cursor: pointer;
+    transition: .4s;
+}
+
+/* footer */
+
+footer {
+    width: 100%;
+    margin-top: 80px;
+    min-height: 600px;
+    background-color: #0d1b2b;
+}
+
+.footer-wrap {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.contacts .footer-title {
+    margin-top: 90px;
+    height: 45px;
+}
+
+.contacts .footer-title h2 {
+    color: #fff;
+    font-size: 45px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.contacts .footer-text {
+    margin-top: 60px;
+}
+
+.contacts .footer-text p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contacts .footer-address {
+    margin-top: 25px;
+}
+
+.contacts .footer-address p {
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+}
+
+.contacts .footer-contacts {
+    display: flex;
+    margin-top: 54px;
+}
+
+.contacts .footer-contacts .phone ul {
+    padding-right: 68px;
+    list-style-type: none;
+}
+
+.contacts .footer-contacts .phone ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.contacts .footer-contacts span {
+    padding-right: 34px;
+    height: 105px;
+    border-left: 3px solid #0058a7;
+}
+
+.contacts .footer-contacts .email {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.contacts .footer-contacts .email p {
+    color: #3d95e3;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.contacts .footer-contacts .email a {
+    color: #3d95e3;
+    font-size: 18px;
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.form fieldset {
+    margin-top: 30px;
+    width: 556px;
+    height: 471px;
+    border: 5px solid #546682;
+}
+
+.form fieldset .form-input {
+    padding: 36px 36px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.form fieldset .form-input input {
+    padding: 0 0 0 36px;
+    margin-bottom: 2px;
+    width: 470px;
+    height: 55px;
+    background-color: #546682;
+    border: none;
+    font-size: 15px;
+    font-weight: 500;
+    outline: none;
+    color: #fff;
+}
+
+.form fieldset .form-input input::-webkit-outer-spin-button,
+.form fieldset .form-input input::-webkit-inner-spin-button {
+    appearance: none;    
+}
+
+.form fieldset .form-input input::-webkit-input-placeholder {
+    color: #fff;
+}
+
+.form fieldset .form-input textarea {
+    padding: 20px 0 0 36px;
+    width: 470px;
+    height: 112px;
+    border: none;
+    border-radius: 0;
+    outline: none;
+    background-color: #546682;
+    font-size: 15px;
+    font-weight: 500;
+    resize: none;
+    color: #fff;
+}
+
+.form fieldset .form-input textarea::placeholder {
+    color: #fff;
+}
+
+.form fieldset .form-data {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.form fieldset .form-data a {
+    color: #4c89c1;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.form fieldset .form-btn {
+    margin-top: 16px;
+    text-align: center;
+}
+
+.form fieldset .form-btn button {
+    width: 290px;
+    height: 60px;
+    border: 3px solid #fff;
+    background-color: #0d1b2b;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+    outline: none;
+}
+
+.form fieldset .form-btn button:hover {
+    background-color: #fff;
+    color: #0d1b2b;
+    transition: .4s;
+    cursor: pointer;
+}
+
+@media all and (max-width: 1800px) {
+
+    .main-wrap .block-one {
+        width: 529px;
+        height: 544px;
+    }
+
+    .main-wrap .block-two {
+        width: 529px;
+        height: 544px;
+    }
+
+    .main-wrap .block-three {
+        width: 529px;
+        height: 544px;
+    }
+    
+    .block-one .img-one {
+        width: 529px;
+            height: 544px;
+        background: url(./img/Layer\ 21.png) center center/cover no-repeat;
+        filter: brightness(70%);
+    }
+
+    .block-two .img-two {
+        width: 529px;
+            height: 544px;
+        background: url(./img/Layer\ 20.png) center center/cover no-repeat;
+        filter: brightness(70%);
+    }
+
+    .block-three .img-three {
+        width: 529px;
+        height: 544px;
+        background: url(./img/Layer\ 18.png) center center/cover no-repeat;
+        filter: brightness(70%);
+    }
+}
+
+
+
+
+
+

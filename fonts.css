@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'DINPro';    
+    src: url('./fonts/DINPro-Bold.eot');    
+    src: url('./fonts/DINPro-Bold.eot') format('embedded-opentype'),
+    url('./fonts/DINPro-Bold.woff') format('woff'),
+    url('./fonts/DINPro-BoldItalic.ttf') format('truetype');
+    font-weight: 700;    
+    font-style: bold;    
+    }
+    
+  @font-face {
+    font-family: 'DINPro';    
+    src: url('./fonts/DINPro-Bold.eot');    
+    src: url('./fonts/DINPro-Bold.eot') format('embedded-opentype'),
+    url('./fonts/DINPro-Bold.woff') format('woff'),
+    url('./fonts/DINPro-BoldItalic.ttf') format('truetype');
+    font-weight: 500;    
+    font-style: medium;    
+    }
+    
